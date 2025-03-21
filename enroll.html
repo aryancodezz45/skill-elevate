@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enroll | SkillElevate</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">
+      <img src="images/logo.png" alt="SkillElevate" />
+    </div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </nav>
+
+  <!-- Enrollment Section -->
+  <section class="enroll-section">
+    <div class="enroll-container">
+      <h2>Enroll Now</h2>
+      <form>
+        <label>Full Name:</label>
+        <input type="text" placeholder="Enter your full name" required />
+        
+        <label>Email:</label>
+        <input type="email" placeholder="Enter your email" required />
+        
+        <label>Phone Number:</label>
+        <input type="tel" placeholder="Enter your phone number" required />
+        
+        <label>Select Course:</label>
+        <select required>
+          <option value="">--Choose a Course--</option>
+          <option value="Digital Marketing">Digital Marketing</option>
+          <option value="Data Analytics">Data Analytics</option>
+          <option value="Web Development">Web Development</option>
+          <option value="Soft Skills">Soft Skills</option>
+        </select>
+        
+        <label>Additional Notes:</label>
+        <textarea rows="4" placeholder="Any specific queries or requests..."></textarea>
+        
+        <button type="submit">Submit Enrollment</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 SkillElevate. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
